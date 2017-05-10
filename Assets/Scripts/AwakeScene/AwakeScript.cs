@@ -13,7 +13,7 @@ namespace AwakeScene
         /// </summary>
         void Awake()
         {
-            SceneManager.LoadScene("TestMainScene");
+            SceneManager.LoadSceneAsync("TestMainScene");
         }
     }
 }
